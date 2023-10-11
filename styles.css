@@ -107,6 +107,10 @@ td {
   font-size: small;
 }
 
+.kotak {
+  margin-left: 4rem;
+}
+
 .hero-buttom table {
   background-color: rgb(255, 0, 191);
 }
