@@ -35,8 +35,8 @@
   width: 100%;
 }
 
-body{
-    min-height: 4000px;
+body {
+  min-height: 4000px;
 }
 
 .logo {
@@ -113,4 +113,9 @@ td {
 
 .hero-buttom table {
   background-color: rgb(255, 0, 191);
+}
+
+.about {
+  display: flex;
+ 
 }
