@@ -77,6 +77,9 @@ body {
 
 .hero-left h1 {
   margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: poppins;
+  font-size: 64px;
 }
 
 .hero-left p {
@@ -92,7 +95,7 @@ body {
 }
 
 .hero-buttom h3 {
-  padding: 0rem 10rem;
+  padding: 0rem 5.5rem;
 }
 
 .hero-buttom table,
@@ -126,4 +129,10 @@ td {
 .about-left h1
 {
   color: rgb(143, 77, 205);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F54FEE;
+  border-color: #F54FEE;
 }
