@@ -73,6 +73,7 @@ body {
 
 .hero-left {
   padding: 3rem;
+ 
 }
 
 .hero-left h1 {
@@ -86,8 +87,17 @@ body {
   margin-top: 1rem;
 }
 
+.hero-right{
+   background-color: #f54fee;
+   border-radius: 50% 50% 10% 10%;
+   
+}
+
 .hero-right img {
-  width: 700px;
+  width: 350px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-buttom {
@@ -98,36 +108,22 @@ body {
   padding: 0rem 5.5rem;
 }
 
-.hero-buttom table,
-th,
-td {
-  font-size: 30px;
-  padding: 0rem 3rem;
-  color: white;
-  border-radius: 10px;
-  margin-left: 3rem;
-}
-
-.hero-buttom td {
-  font-size: small;
-}
 
 .kotak {
-  margin-left: 4rem;
+ display: flex;
 }
 
-.hero-buttom table {
-  background-color: rgb(255, 0, 191);
+.kotak2{
+  display: inline-flex;
 }
+
 
 .about {
   display: flex;
   font-size: 15px;
   padding: 0rem 3rem;
-
 }
-.about-left h1
-{
+.about-left h1 {
   color: rgb(143, 77, 205);
 }
 
