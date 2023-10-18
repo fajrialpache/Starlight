@@ -65,7 +65,8 @@ body {
 }
 
 .congrat-desc button {
-  background-color: deeppink;
+  background-color: #F54FEE;
+  border-color: #F54FEE;
   line-height: 20px;
   display: flex;
   flex-direction: column;
@@ -73,3 +74,9 @@ body {
   justify-content: center;
   position: relative;
 }
+
+img {
+  display: block; 
+  width: 100%;
+}
+

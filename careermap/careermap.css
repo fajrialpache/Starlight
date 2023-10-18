@@ -8,10 +8,25 @@ main {
 h1 {
     text-align: center;
     margin-bottom: 24px;
-
+    font-weight: 600;
 }
 
 img {
     display: block; 
     width: 100%;
 }
+
+.footer {
+    position: relative;
+    width: 100%;
+} 
+  
+.starlight-tag {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    font-size: 13px; 
+    font-weight: 400px;
+    color: white;
+}
+

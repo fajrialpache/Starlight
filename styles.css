@@ -135,5 +135,17 @@ body {
   border-color: #F54FEE;
 }
 
+.btn {
+  background-color: #F54FEE;
+  color: #fff;
+  border-color: #F54FEE;
+}
 
+.btn:hover {
+  background-color: #0d6efd;
+}
 
+img {
+  display: block; 
+  width: 100%;
+}
