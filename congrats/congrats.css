@@ -1,0 +1,45 @@
+main {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+img {
+    display: block; 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+} 
+  
+.starlight-tag {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    font-size: 13px; 
+    font-weight: 400px;
+    color: white;
+}
+
+.pic-con {
+    width: 18%
+}
+
+
