@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 .col-1 {
   width: 8.33%;
@@ -38,7 +38,8 @@
 }
 
 body {
-  font-family:'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  min-height: 1000vh;
 }
 
 .logo {
@@ -76,7 +77,6 @@ body {
 
 .hero-left {
   padding: 3rem;
- 
 }
 
 .hero-left h1 {
@@ -89,56 +89,51 @@ body {
   margin-top: 1rem;
 }
 
-.hero-right{
-   background-color: #f54fee;
-   border-radius: 50% 50% 10% 10%;
-   
-}
-
-.hero-right img {
-  width: 350px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
+.hero-right {
+  background-color: #f54fee;
+  border-radius: 50% 50% 10% 10%;
 }
 
 .hero-buttom {
   display: flex;
+  margin-top: 10rem;
 }
 
 .hero-buttom h3 {
   padding: 0rem 5.5rem;
 }
 
-
 .kotak {
- display: flex;
 }
 
-.kotak2{
-  display: inline-flex;
+.kotak table {
+  margin-left: 5rem;
+  background-color: #f54fee;
+  border-radius: 20px;
 }
 
-
-.about {
-  display: flex;
-  font-size: 15px;
-  padding: 0rem 3rem;
+.kotak th,
+td {
+  font-size: large;
+  padding: 1rem;
 }
-.about-left h1 {
-  color: rgb(143, 77, 205);
+
+.kotak th {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #F54FEE;
-  border-color: #F54FEE;
+  background-color: #f54fee;
+  border-color: #f54fee;
 }
 
 .btn {
-  background-color: #F54FEE;
+  background-color: #f54fee;
   color: #fff;
-  border-color: #F54FEE;
+  border-color: #f54fee;
 }
 
 .btn:hover {
@@ -146,6 +141,75 @@ body {
 }
 
 img {
-  display: block; 
+  display: block;
   width: 100%;
+}
+
+.about {
+  display: flex;
+  font-size: 15px;
+  margin-top: 5rem;
+}
+
+.about-left {
+  padding-left: 5rem;
+}
+
+.about-left h1 {
+  color: #f54fee;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.about-right {
+  padding-left: 8rem;
+}
+
+.program {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.program-left {
+  margin-top: 2rem;
+}
+
+.program-left h1 {
+  color: #f54fee;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.program img {
+  width: 700px;
+}
+
+.personal {
+  background-color: rgba(0, 0, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.question{
+  margin-top: 5rem;
+}
+
+.question h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f54fee;
+  margin-bottom: 2rem;
+}
+
+.questions{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
 }
