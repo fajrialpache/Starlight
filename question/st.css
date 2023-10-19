@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.logo {
+  font-size: 2rem;
+  margin-left: 15rem;
+  font-weight: 600;
+}
+
+.navbar {
+  margin: 0rem 3rem;
+}
+
+#language {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+}
+
+.list li a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  margin: 3rem;
+}
+
+.hero-left {
+  padding: 3rem;
+}
+
+.hero-left h1 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.hero-left p {
+  margin-top: 1rem;
+}
+
+.hero-right {
+  background-color: #f54fee;
+  border-radius: 50% 50% 10% 10%;
+}
+
+.hero-buttom {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.hero-buttom h3 {
+  padding: 0rem 5.5rem;
+}
+
+.kotak {
+}
+
+.kotak table {
+  margin-left: 5rem;
+  background-color: #f54fee;
+  border-radius: 20px;
+}
+
+.kotak th,
+td {
+  font-size: large;
+  padding: 1rem;
+}
+
+.kotak th {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f54fee;
+  border-color: #f54fee;
+}
+
+.btn {
+  background-color: #f54fee;
+  color: #fff;
+  border-color: #f54fee;
+}
+
+.btn:hover {
+  background-color: #0d6efd;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  font-size: 15px;
+  margin-top: 5rem;
+}
+
+.about-left {
+  padding-left: 5rem;
+}
+
+.about-left h1 {
+  color: #9255FA;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.about-right {
+  padding-left: 8rem;
+}
+
+.program {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.program-left {
+  margin-top: 2rem;
+}
+
+.program-left h1 {
+  color: #9255FA;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.program img {
+  width: 700px;
+}
+
+.personal {
+  background-color: rgba(0, 0, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.question{
+  margin-top: 5rem;
+}
+
+.question h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #9255FA;
+  margin-bottom: 2rem;
+}
+
+.questions{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+} 
+
+.starlight-tag {
+  position: absolute;
+  bottom: 6%;
+  left: 15%;
+  font-size: 13px; 
+  font-weight: 400px;
+  color: white;
+}
+
+.social-icon {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  color: white;
+}
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white
+}
+body{
+    background-color:#eee;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+    padding: 6px 0px;
+    border: 1px solid black;
+    display: inline-block;
+    color:  black;
+    width: 100px;
+    text-align: left;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase;
+  }
+  
+  label.radio input:checked + span {
+    border-color: #9255FA;
+    background-color: #9255FA;
+    color: #fff;
+  }
+  
+  .ans {
+    margin-left: 36px !important;
+  }
+  
+  .btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  .btn:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }  
